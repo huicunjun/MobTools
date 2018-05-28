@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_weather_toolbar"
+        android:background="@color/colorAccent"
+        app:titleTextColor="@color/colorbaise"
+        app:title="天气查询"
+        app:navigationIcon="@mipmap/arrowleft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ToolbarTheme_while"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+ </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/weather_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+       android:paddingStart="30dp"
+        android:paddingEnd="30dp">
+        <TextView
+            android:id="@+id/weather_wendu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="36"
+            android:textColor="@color/colorbaise"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/weather_wendudanwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/weather_wendu"
+            android:text="°C"
+            android:textColor="@color/colorbaise"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/weather_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weather_wendu"
+            android:text="北京市"
+            android:textColor="@color/colorbaise"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/weather_tianqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weather_wendu"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/weather_city"
+            android:text="多云"
+            android:textColor="@color/colorbaise"
+            android:textSize="18sp" />
+<LinearLayout
+    android:id="@+id/weather_subinfo"
+    android:padding="30dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/weather_city">
+    <TextView
+        android:id="@+id/weather_kongqizhiliang"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="空气良好"
+        android:textColor="@color/colorbaise"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/weather_yundong"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="适宜运动"
+        android:textColor="@color/colorbaise"
+        android:textSize="18sp" />
+</LinearLayout>
+
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/weather_rec"
+        app:fastScrollEnabled="false"
+        android:layout_below="@id/weather_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

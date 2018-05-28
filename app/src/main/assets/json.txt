@@ -1,0 +1,36 @@
+{
+    "msg": "success",
+    "result": [
+        {
+            "airCondition": "优",
+            "city": "珠海",
+            "coldIndex": "低发期",
+            "date": "2018-05-23",
+            "distrct": "珠海",
+            "dressingIndex": "薄短袖类",
+            "exerciseIndex": "不适宜",
+            "future": [
+                {
+                    "date": "2018-05-23",
+                    "night": "阵雨",
+                    "temperature": "32°C / °C",
+                    "week": "今天",
+                    "wind": "微风 小于3级"
+                }
+            ],
+            "humidity": "湿度：69%",
+            "pollutionIndex": "44",
+            "province": "广东",
+            "sunrise": "05:52",
+            "sunset": "18:54",
+            "temperature": "31℃",
+            "time": "19:13",
+            "updateTime": "20180523192200",
+            "washIndex": "",
+            "weather": "晴",
+            "week": "周三",
+            "wind": "东南风4级"
+        }
+    ],
+    "retCode": "200"
+}

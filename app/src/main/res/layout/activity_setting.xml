@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.SettingActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/setting_toolbar"
+        android:elevation="10dp"
+        android:background="@color/colorAccent"
+        app:titleTextColor="@color/colorbaise"
+        app:title="设置"
+        app:navigationIcon="@mipmap/arrowleft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="常规"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/setting_night"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/activity_setting_yjms"
+                android:text="夜间模式"
+                android:textColor="@color/colorheise"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_below="@id/activity_setting_yjms"
+                android:text="在黑暗环境下保护视力"
+                android:textColor="@color/color_800000000"
+                android:textSize="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/activity_setting_switch_yjms"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@id/activity_setting_yjms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorhuise"
+            android:layout_height="1dp"/>
+
+
+        <RelativeLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_setting_zdsx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自动刷新"
+                android:textColor="@color/colorheise"
+                android:textSize="16dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_setting_zdsx"
+                android:layout_marginTop="3dp"
+                android:text="APP在每次启动时自动刷新"
+                android:textColor="@color/color_800000000"
+                android:textSize="13dp"
+                tools:ignore="DuplicateIds" />
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/activity_setting_switch_zdsx"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@id/activity_setting_zdsx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="关于"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp" />
+        <RelativeLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_setting_bbh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MobTools"
+                android:textColor="@color/colorheise"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_setting_bbh"
+                android:layout_marginTop="3dp"
+                android:text="版本号:1.0"
+                android:textColor="@color/color_800000000"
+                android:textSize="13dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorhuise"
+            android:layout_height="1dp"/>
+
+
+        <RelativeLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_setting_thank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鸣谢"
+                android:textColor="@color/colorheise"
+                android:textSize="16dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_setting_thank"
+                android:layout_marginTop="3dp"
+                android:text="排名不分先后"
+                android:textColor="@color/color_800000000"
+                android:textSize="13dp"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorhuise"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_setting_ren1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lucky Nice"
+                android:textColor="@color/colorheise"
+                android:textSize="16dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_setting_ren1"
+                android:layout_marginTop="3dp"
+                android:text="启蒙老师"
+                android:textColor="@color/color_800000000"
+                android:textSize="13dp"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorhuise"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_setting_ren2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="黄老师"
+                android:textColor="@color/colorheise"
+                android:textSize="16dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_setting_ren2"
+                android:layout_marginTop="3dp"
+                android:text="技术支持"
+                android:textColor="@color/color_800000000"
+                android:textSize="13dp"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

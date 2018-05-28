@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_calendar_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:theme="@style/ToolbarTheme_while"
+        app:navigationIcon="@mipmap/arrowleft"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="万年历"
+        app:titleTextColor="@color/colorbaise" />
+</LinearLayout>

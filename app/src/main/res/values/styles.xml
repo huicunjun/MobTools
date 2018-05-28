@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--白天主题-->
+    <style name="DayTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="clockBackground">@android:color/white</item>
+        <item name="clockTextColor">@android:color/black</item>-->
+    </style>
+
+    <!--夜间主题-->
+    <style name="NightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#212121</item>
+        <!--  <item name="clockBackground">@color/color3F3F3F</item>
+          <item name="clockTextColor">@color/color8A9599</item>-->
+    </style>
+
+
+    <style name="AppTheme_zhihu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0078D7</item>
+        <item name="colorPrimaryDark">#0078D7</item>
+        <item name="colorAccent">#0078D7</item>
+    </style>
+
+    <style name="AppTheme_wangyi" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_973444</item>
+        <item name="colorPrimaryDark">@color/color_973444</item>
+        <item name="colorAccent">@color/color_973444</item>
+    </style>
+
+    <style name="AppTheme_chuyinlv" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#66FFCC</item>
+        <item name="colorPrimaryDark">#66FFCC</item>
+        <item name="colorAccent">#66FFCC</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="MainAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+    <!--Toolbar溢出菜单样式-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!--ToolBar白色主题-->
+    <style name="ToolbarTheme_while" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--searchView主题-->
+        <item name="searchViewStyle">@style/Widget.SearchView</item>
+        <!--溢出菜单主题-->
+        <item name="android:actionOverflowButtonStyle">@style/ActionButton.Overflow.ZhiHu</item>
+        <!--文字及图标颜色-->
+        <item name="android:textColorPrimary">@color/colorbaise</item>
+        <!--光标颜色-->
+        <item name="colorAccent">@color/colorbaise</item>
+    </style>
+
+    <style name="ActionButton.Overflow.ZhiHu" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@mipmap/main_more</item>
+    </style>
+
+    <!--ToolBar主题111-->
+    <style name="Toolbar">
+        <item name="android:theme">@style/AppTheme.Toolbar</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--searchView主题-->
+        <item name="searchViewStyle">@style/Widget.SearchView</item>
+        <!--溢出菜单主题-->
+        <item name="android:actionOverflowButtonStyle">@style/ActionButton.Overflow.ZhiHu</item>
+
+    </style>
+
+    <style name="Widget.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="defaultQueryHint">"请输入关键字"</item>
+        <item name="searchIcon">@mipmap/main_search</item>
+        <item name="closeIcon">@mipmap/close</item>
+
+    </style>
+
+
+    <!--SearchView主题-->
+    <style name="SearchViewTheme">
+        <item name="queryBackground">@color/colorAccent</item>
+        <item name="submitBackground">@color/colorAccent</item>
+        <item name="closeIcon">@mipmap/close</item>
+        <item name="searchIcon">@mipmap/main_search</item>
+    </style>
+</resources>

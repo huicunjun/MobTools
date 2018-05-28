@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:background="@color/colorbaise"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_health_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日常食物治疗狐臭偏方"
+            android:maxLength="13"
+            android:textColor="@color/colorheise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_health_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="ID:10625"
+            android:textColor="@color/colorheise"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_health_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="8"
+            android:text="      人都说是药三分毒，狐臭本身不能算是疾病，如果为了治疗狐臭而使用大量的药物，对身体造成其他方面的危害就不值当了，那么狐臭味儿也着实让人难以忍受，如何治疗狐臭既治病又不伤身呢？这是很多患者苦苦搜寻，也是专家致力研究的。那么如何治疗狐臭危害最小呢？中医来看，狐臭皆因湿热引起，所以饮食要注意吃些利尿清谈的东西，强烈推荐的是薏米粥。薏米是除湿专家，另外多喝水，但要注意的是不要喝过热的水，夏天过热的水会增加身体的火性，稍微有点热度即可。蔬菜方面可多食冬瓜、西瓜类以利尿。因为青色食品属木，绿色叶类蔬菜要多食，水生木，木泄水，所以青色食物能帮助体内泄水去湿。应当忌食甘腻肥厚的东西，甘属土，土代表滞，会造成食物在身体内的滞留时间，无法排出，毒素滋生。去湿热灭火泄水是关键，所以夏天多喝水降火，多食叶类蔬菜，少食土豆类干厚之物，让身体正常流通。以下搜集一些日常食物治疗狐臭偏方：1.生姜适量。用法：捣烂取汁，频涂患处。2.独头蒜汁，生姜汁各适量。用法：涂患处。3.茶叶适量。用法：水煎涂洗局部并洗澡用。4.大田螺一个，巴豆两粒，将巴豆放入大田螺内，用药棉蘸田螺渗出液搽腋下，每日三四次，加麝香少许更好，治狐臭，用药期间可能有腥臭，无妨。6.最近，美国新的研究就发现西红柿汁对消除狐臭有一定的功效。具体方法是：1.洗澡后在一盆清水中加入500毫升的西红柿汁2.用药棉浸泡后反复擦拭两腋15分钟左右每周2次，这样就可以达到消除狐臭的理想效果。方法简单，经济实用。7.小苏打粉：使用方法;拿一块沾水后的纱布(微湿).沾上小苏打粉再患部上均匀涂抹即可.这方法基本上只能治标不能治本.使用时间别超过24小时.使用小苏打粉不会有什么副作用.如果你使用后有任何不适.请立即停用.方为上策.8.醋疗法治狐臭用料：米醋100克，茴香粉5克。制法：调和匀。用法：涂擦。9.将食盐炒热后，装入纱布袋内，趁热扎好，反复摩擦双腋窝约5分钟，每日1次，连用5天。10.醋疗法治狐臭用料：米醋100克，茴香粉5克。制法：调和匀。用法：涂擦。根治狐臭药方：药方1：青黛20克、枯矾10克、胆矾10克。调制及使用方法：把以上三种药买回来，仔细研磨成细粉未后，均匀的拌和在一起，用瓶子密封装好，在每天晚上洗澡后涂�于腋窝处，此药粉没有异味，只是会弄污衣服，并在使用此药时会有几分钟轻微的剌痛感觉。早上起床后可以洗干净后再上班，坚持一段时间，必能根治，时间长短因人而异。治好后永不复发。注：1、以上三种药只花1元钱即可买齐。2、使用此药时最好先把腋毛去除，以方便用药。药方2：米醋100克，茴香粉5克。调和匀涂擦腑下数次狐臭立刻消失。狐臭患者饮食禁忌：腋臭患者要少吃有强烈刺激的食物、戒烟酒。这些食物对人体有刺激作用，会干扰人体的正常生理功能，影响内分泌的调节，而过多的流汗和不饱和脂肪酸会把衣服染黄，并留下久久不散的味道，造成清洁上的困扰，这种症状青春期最为明显，夏季天热容易加重。建议戒烟酒，不吃或少吃有强烈刺激的食物如大蒜、大葱、洋葱、浓茶等，可以减轻臭味程度。常吃蔬菜对人体有益，蔬菜中的纤维质虽不能被人体的肠胃所吸收，但本身会吸收大量的水分，增加粪便形成的软度，有益排便，从而排除体内的细菌和毒素，有效减少细菌经汗腺从皮肤排出体外，可以减轻狐臭。"
+            android:textColor="@color/colorheise"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>
